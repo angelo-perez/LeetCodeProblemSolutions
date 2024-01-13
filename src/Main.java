@@ -1,4 +1,5 @@
 import LeetCode75.*;
+import LeetcodeProblems.OnlineElection;
 import LeetcodeProblems.TwoSum;
 import csjodo_dsa.*;
 import other_algo.SlidingWindow;
@@ -11,43 +12,7 @@ import java.util.Stack;
 public class Main {
 
     public static void main(String[] args) {
-
-//        LeetcodeProblems.LongestSubstring.testlengthOfLongestSubstring();
-//        SlidingWindow.testFindSumAllSubarrays();
-//        System.out.println(LeetcodeProblems.MedianTwoArray.findMedianSortedArrays(new int[]{1, 2}, new int[]{3, 4}));
-//        int[] arr =  {-2, 3, 4, 7, 8, 9, 11, 13};
-//        int[] unsortedArr =  {8, 9, 11, 13,-2, 3, 4, 7};
-//        int target = 11;
-//        int unsortedTarget = 8;
-//        System.out.println(BinarySearch.search(arr, target));
-//        System.out.println(BinarySearch.search(unsortedArr, unsortedTarget));
-
-//        String s = "PAYPALISHIRING";
-//        int numRows = 6;
-//        System.out.println(LeetcodeProblems.ZigzagConversion.getZigzagConversion(s, numRows));
-        //GreatestCommonDivisorOfStrings.testGcdOfStrings();
-//        KidsWithGreatestNumberOfCandies.testKidsWithCandies();
-
-//        ReverseVowelsOfAString.testReverseVowel();
-//        ReverseWordsInAString.testReverseWords();
-//        ProductOfArrayExceptSelf.testProductExceptSelf();
-//        StringCompression.testCompress();
-//        MoveZeroes.testMoveZeroes();
-//        ContainerWithMostWater.testMaxArea();.
-//        MaxNumberOfKSumPairs.testMaxOperation();
-//        MaximumAverageSubarrayI.testFindMaxAverage();
-//        MaximumNumberOfVowelsInASubstringOfGivenLength.testMaxVowels();
-//        MaxConsecutiveOnesIII.testLongestOnes();
-//        LongestSubarrayOf1sAfterDeletingOneElement.testLongestSubarray();
-//        FindTheHighestAltitude.testLargestAltitude();
-//        FindPivotIndex.testPivotIndex();
-//        FindTheDifferenceOfTwoArrays.testfindDifference();
-//        UniqueNumberOfOccurrences.testUniqueOccurrences();
-//        DetermineIfTwoStringsAreClose.testCloseStrings();
-//          EqualRowAndColumnPairs.testEqualPairs();
-//        RemovingStarsFromString.testRemoveStars();
-//        AsteroidCollision.testAsteroidCollision();
-        ProductOfArrayExceptSelf.testProductExceptSelf();
+        OnlineElection.testOnlineElection();
     }
 
 //
