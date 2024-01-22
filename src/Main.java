@@ -1,4 +1,5 @@
 import LeetCode75.*;
+import LeetcodeProblems.FindFirstPalindromicStringInTheArray;
 import LeetcodeProblems.OnlineElection;
 import LeetcodeProblems.TwoSum;
 import csjodo_dsa.*;
@@ -12,7 +13,7 @@ import java.util.Stack;
 public class Main {
 
     public static void main(String[] args) {
-        NumberOfRecentCalls.testNumberOfRecentCalls();
+        FindFirstPalindromicStringInTheArray.testFirstPalindrome();
     }
 
 //
